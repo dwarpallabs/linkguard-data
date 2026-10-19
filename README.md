@@ -20,6 +20,8 @@ https://github.com/dwarpallabs/linkguard-data/releases/latest/download/latest.js
 | `CHANGELOG.md` | The websites added and removed each day, newest first. |
 | `reports-summary.json` | How many LinkGuard users reported a scam each week, per brand the scam pretended to be (for example SBI or HDFC Bank, or `other`). Counts only, never websites. |
 
+Every Monday a short report on the week is added to [reports/](reports/): reports per brand, newly confirmed websites and active scam campaigns. It names only websites already in `confirmed.txt`.
+
 Please credit the data like this:
 
 > Scam website data: LinkGuard by Dwarpal Labs (ODbL 1.0), including PhishDestroy (MIT).
